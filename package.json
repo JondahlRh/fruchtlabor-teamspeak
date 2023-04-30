@@ -1,0 +1,19 @@
+{
+  "name": "fruchtlabor-teamspeak",
+  "version": "1.0.0",
+  "description": "web site for the fruchtlabor teamspeak",
+  "scripts": {
+    "fullupdate": "npm i -g npm-check-updates && ncu -u && npm install && cd back && npm i -g npm-check-updates && ncu -u && npm install && cd ../front && npm i -g npm-check-updates && ncu -u && npm install",
+    "fullinstall": "npm install && cd back && npm install && cd ../front && npm install",
+    "prettierC": "prettier --check .",
+    "prettierW": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Jondahl \"Gamix\" Rhenius",
+  "license": "ISC",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.8"
+  }
+}

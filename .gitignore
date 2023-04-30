@@ -1,0 +1,8 @@
+# general
+node_modules
+.env
+
+# front
+build
+
+# back
