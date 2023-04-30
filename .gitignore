@@ -3,6 +3,6 @@ node_modules
 .env
 
 # front
-build
+dist
 
 # back
